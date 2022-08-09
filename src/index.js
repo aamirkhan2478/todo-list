@@ -1,2 +1,4 @@
-import './style.css';
-console.log('Working');
+import ShowList from "./showList.js";
+import "./style.css";
+
+ShowList();
