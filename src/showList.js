@@ -1,5 +1,5 @@
-import lists from "./list";
-import { data } from "./getElements";
+import lists from "./list.js";
+import data from "./getElements.js";
 
 const ShowList = () => {
   let str = "";
@@ -11,6 +11,7 @@ const ShowList = () => {
             <li><span>Completed:</span> ${completed}</li>
             <hr/>
         `;
+    return str;
   });
 
   data.innerHTML = str;

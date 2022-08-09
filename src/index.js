@@ -1,4 +1,4 @@
-import ShowList from "./showList";
+import ShowList from "./showList.js";
 import "./style.css";
 
 ShowList();

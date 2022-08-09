@@ -1,1 +1,3 @@
-export const data = document.getElementById('data');
+const data = document.getElementById("data");
+
+export default data;
