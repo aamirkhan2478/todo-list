@@ -9,4 +9,4 @@
 > npm start
 
 ### Run this command to build your webpack
-> npm run build
+> npm run build# todo-list
