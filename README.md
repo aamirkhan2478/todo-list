@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome Books
+# TODO LIST
 
-> In this website you will add books and also watch the lists of books.
+> In this website you will add todo list and also show your todo list and update your todo list.
 
 ## Built With
 
