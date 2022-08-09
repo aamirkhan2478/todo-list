@@ -3,6 +3,10 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+}
+
 ul {
   list-style: none;
   display: flex;
