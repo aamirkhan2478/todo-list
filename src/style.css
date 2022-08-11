@@ -63,6 +63,7 @@ input[type="checkbox"] {
 .description:hover {
   cursor: pointer;
 }
+
 .description::before {
   content: "";
   background-image: url("./image/check-circle.svg");
@@ -73,7 +74,6 @@ input[type="checkbox"] {
   position: absolute;
   left: -35px;
   top: -5px;
-
   transform: scale(0) rotateZ(180deg);
   transition: all 0.4s cubic-bezier(0.54, 0.01, 0, 1.49);
 }
@@ -121,8 +121,7 @@ input[type="checkbox"]:checked + .description::before {
 .not-found {
   color: red;
   font-size: 40px;
-  
-  padding-left:135px ;
+  padding-left: 135px;
 }
 
 .clear-completed-task {
