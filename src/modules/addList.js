@@ -1,4 +1,4 @@
-import { textBox, data } from "./getElements.js";
+import { textBox, data, errorMessage,clearCompletedTasks } from "./getElements.js";
 import List from "./listObj.js";
 import ShowList from "./showList.js";
 
@@ -7,12 +7,12 @@ class AddList {
     let listArr = [];
     let str = "";
     const description = textBox.value;
-    const newArr = JSON.parse(localStorage.getItem('list'));
+    const newArr = JSON.parse(localStorage.getItem("list"));
     const list = new List(newArr.length, description);
     const listShow = new ShowList();
     // Check if title and author field is empty or not
     if (textBox.value === "") {
-      alert("Please enter description");
+      errorMessage.classList.add("show-message");
     } else {
       if (localStorage.getItem("list") === null) {
         listArr.push(list);
@@ -27,7 +27,11 @@ class AddList {
       str = "";
       data.innerHTML = str;
       listShow.showList();
+      clearCompletedTasks.style.display = "block";
     }
+    setTimeout(() => {
+      errorMessage.classList.remove("show-message");
+    }, 2500);
   };
 }
 

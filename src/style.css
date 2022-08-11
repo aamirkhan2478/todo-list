@@ -137,3 +137,19 @@ input[type="checkbox"]:checked + .description::before {
   background-color: rgb(252, 252, 168);
   cursor: pointer;
 }
+
+.error-message {
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: red;
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: white;
+  margin-left: 43%;
+}
+
+.show-message {
+  display: flex;
+}
