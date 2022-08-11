@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.key === "Enter") {
       const listAdd = new AddList();
       listAdd.addList();
-      clearCompletedTasks.style.display = "block";
     }
   });
   clearCompletedTasks.addEventListener("click", () => {
