@@ -1,34 +1,71 @@
 body {
   background-color: aqua;
   box-sizing: border-box;
+  margin: 0;
 }
 
-h1 {
-    text-align: center;
-}
-
-ul {
-  list-style: none;
+.data-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid white;
-  height: 400px;
-  width: 400px;
-  margin: 9% auto;
-  background-color: white;
-  border-radius: 10px;
+  align-items: center;
+  margin: 10% auto;
 }
 
-ul li {
-  margin-left: 50px;
-}
-
-ul li span {
-  font-weight: bold;
-}
-
-hr {
-  border: 1px solid black;
+.data {
+  background-color: aliceblue;
   width: 300px;
+  border-radius: 5px;
+}
+
+.inner-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 10px 0;
+  padding: 0 10px 0 10px;
+}
+
+.textbox-container {
+  margin: 20px 0 20px 0;
+  display: flex;
+}
+
+.textbox-container i {
+  position: absolute;
+  left: 810px;
+  color: gray;
+  font-size: small;
+}
+
+.text-input {
+  outline-style: none;
+  border: none;
+  background-color: aliceblue;
+  border-bottom: 1px solid gray;
+  width: 295px;
+}
+
+.clear-completed-task {
+  background-color: beige;
+  text-align: center;
+  padding: 5px;
+}
+
+.clear-completed-task:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fa-trash-alt:hover {
+  cursor: pointer;
+}
+
+.fa-ellipsis-v:hover {
+  cursor: pointer;
+}
+
+.fa-trash-alt {
+ display: none;
+ color: red;
 }
