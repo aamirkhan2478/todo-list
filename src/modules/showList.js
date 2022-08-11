@@ -1,5 +1,5 @@
 import CompletedList from "./completedTasks.js";
-import { data as items } from "./getElements.js";
+import { data as items, clearCompletedTasks } from "./getElements.js";
 import RemoveList from "./removeList.js";
 import UpdateList from "./updateList.js";
 
@@ -24,7 +24,8 @@ class ShowList {
       const label = document.createElement("label");
       label.htmlFor = "description";
       label.innerHTML = `Data not found`;
-      label.style.color = "red";
+      label.className = "not-found";
+      clearCompletedTasks.style.display = "none";
       item.appendChild(label);
     }
 
@@ -35,15 +36,18 @@ class ShowList {
       div.className = "inner-data";
       const innerDiv = document.createElement("div");
       const label = document.createElement("label");
-      label.htmlFor = "description";
-      label.setAttribute("index", index);
+      label.htmlFor = `description-${index}`;
+      label.setAttribute("id", index);
       label.innerHTML = `${description}`;
+      label.className = "description";
       const checkbox = document.createElement("input");
       checkbox.type = "checkbox";
+      checkbox.setAttribute("id", `description-${index}`);
       const inputField = document.createElement("input");
       inputField.type = "text";
       inputField.value = description;
       inputField.style.display = "none";
+      inputField.className = "update-field";
       const removeButton = document.createElement("i");
       removeButton.className = "fa fa-trash-alt";
       const editButton = document.createElement("i");
