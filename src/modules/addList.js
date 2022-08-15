@@ -1,4 +1,6 @@
-import { textBox, data, errorMessage,clearCompletedTasks } from "./getElements.js";
+import {
+  textBox, data, errorMessage, clearCompletedTasks,
+} from "./getElements.js";
 import List from "./listObj.js";
 import ShowList from "./showList.js";
 
