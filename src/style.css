@@ -1,0 +1,155 @@
+body {
+  background-color: aqua;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% auto;
+}
+
+.data {
+  background-color: aliceblue;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.inner-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 10px 0;
+  padding: 0 10px 0 10px;
+}
+
+.textbox-container {
+  margin: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textbox-container i {
+  margin-left: 468px;
+  position: absolute;
+  color: gray;
+  font-size: 30px;
+}
+
+.text-input {
+  outline-style: none;
+  border: none;
+  background-color: aliceblue;
+  border-bottom: 1px solid gray;
+  width: 500px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.description {
+  font-size: 23px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.description:hover {
+  cursor: pointer;
+}
+
+.description::before {
+  content: "";
+  background-image: url("./image/check-circle.svg");
+  background-position: center;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: -35px;
+  top: -5px;
+  transform: scale(0) rotateZ(180deg);
+  transition: all 0.4s cubic-bezier(0.54, 0.01, 0, 1.49);
+}
+
+input[type="checkbox"]:checked + .description::before {
+  transform: scale(1) rotateZ(0deg);
+}
+
+.description::after {
+  content: "";
+  border: 2px solid #27ae60;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -33px;
+  top: -3px;
+  border-radius: 50%;
+}
+
+.fa-trash-alt:hover {
+  cursor: pointer;
+}
+
+.fa-ellipsis-v:hover {
+  cursor: pointer;
+}
+
+.fa-ellipsis-v {
+  font-size: 20px;
+}
+
+.fa-trash-alt {
+  display: none;
+  color: red;
+  font-size: 20px;
+}
+
+.update-field {
+  outline-style: none;
+  border: none;
+  background-color: aliceblue;
+  font-size: 20px;
+}
+
+.not-found {
+  color: red;
+  font-size: 40px;
+  padding-left: 135px;
+}
+
+.clear-completed-task {
+  background-color: beige;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.clear-completed-task:hover {
+  background-color: rgb(252, 252, 168);
+  cursor: pointer;
+}
+
+.error-message {
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: red;
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: white;
+  margin-left: 43%;
+}
+
+.show-message {
+  display: flex;
+}

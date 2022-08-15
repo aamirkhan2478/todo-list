@@ -23,6 +23,9 @@
 > npm run build
 
 
+## Live Preview
+[Live Demo](https://aamirkhan2478.github.io/todo-list.github.io/)
+
 ## Authors
 
 👤 **Aamir Khan**
