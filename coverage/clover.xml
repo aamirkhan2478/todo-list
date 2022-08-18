@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1660813664603" clover="3.2.0">
+  <project timestamp="1660813664603" name="All files">
+    <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="32" coveredelements="32" complexity="0" loc="28" ncloc="28" packages="1" files="3" classes="3"/>
+    <file name="addList.js" path="/home/samaritan/Documents/microverse/todo-list/src/__mock__/addList.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="18" count="4" type="stmt"/>
+    </file>
+    <file name="removeList.js" path="/home/samaritan/Documents/microverse/todo-list/src/__mock__/removeList.js">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+    </file>
+    <file name="showList.js" path="/home/samaritan/Documents/microverse/todo-list/src/__mock__/showList.js">
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="6" type="stmt"/>
+      <line num="4" count="6" type="stmt"/>
+      <line num="5" count="6" type="stmt"/>
+      <line num="7" count="6" type="stmt"/>
+      <line num="8" count="10" type="stmt"/>
+      <line num="9" count="10" type="stmt"/>
+      <line num="10" count="10" type="stmt"/>
+      <line num="11" count="10" type="stmt"/>
+      <line num="12" count="10" type="stmt"/>
+      <line num="13" count="10" type="stmt"/>
+      <line num="14" count="10" type="stmt"/>
+      <line num="15" count="10" type="stmt"/>
+      <line num="16" count="10" type="stmt"/>
+      <line num="17" count="10" type="stmt"/>
+      <line num="18" count="10" type="stmt"/>
+    </file>
+  </project>
+</coverage>
