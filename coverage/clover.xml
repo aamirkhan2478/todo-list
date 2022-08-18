@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660813664603" clover="3.2.0">
-  <project timestamp="1660813664603" name="All files">
-    <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="32" coveredelements="32" complexity="0" loc="28" ncloc="28" packages="1" files="3" classes="3"/>
-    <file name="addList.js" path="/home/samaritan/Documents/microverse/todo-list/src/__mock__/addList.js">
+<coverage generated="1660847482251" clover="3.2.0">
+  <project timestamp="1660847482251" name="All files">
+    <metrics statements="54" coveredstatements="54" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9" elements="69" coveredelements="69" complexity="0" loc="54" ncloc="54" packages="1" files="6" classes="6"/>
+    <file name="addList.js" path="D:\Microverse\Projects\ToDo List\src\__mock__\addList.js">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="4" type="stmt"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="17" count="4" type="stmt"/>
-      <line num="18" count="4" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="7" type="stmt"/>
+      <line num="5" count="7" type="stmt"/>
+      <line num="12" count="7" type="stmt"/>
+      <line num="13" count="7" type="stmt"/>
     </file>
-    <file name="removeList.js" path="/home/samaritan/Documents/microverse/todo-list/src/__mock__/removeList.js">
+    <file name="clearCompleted.js" path="D:\Microverse\Projects\ToDo List\src\__mock__\clearCompleted.js">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="completedList.js" path="D:\Microverse\Projects\ToDo List\src\__mock__\completedList.js">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+    </file>
+    <file name="removeList.js" path="D:\Microverse\Projects\ToDo List\src\__mock__\removeList.js">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="2" type="stmt"/>
@@ -20,24 +42,37 @@
       <line num="9" count="2" type="stmt"/>
       <line num="10" count="2" type="stmt"/>
     </file>
-    <file name="showList.js" path="/home/samaritan/Documents/microverse/todo-list/src/__mock__/showList.js">
-      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="6" type="stmt"/>
-      <line num="4" count="6" type="stmt"/>
-      <line num="5" count="6" type="stmt"/>
-      <line num="7" count="6" type="stmt"/>
-      <line num="8" count="10" type="stmt"/>
-      <line num="9" count="10" type="stmt"/>
-      <line num="10" count="10" type="stmt"/>
-      <line num="11" count="10" type="stmt"/>
-      <line num="12" count="10" type="stmt"/>
-      <line num="13" count="10" type="stmt"/>
-      <line num="14" count="10" type="stmt"/>
-      <line num="15" count="10" type="stmt"/>
-      <line num="16" count="10" type="stmt"/>
-      <line num="17" count="10" type="stmt"/>
-      <line num="18" count="10" type="stmt"/>
+    <file name="showList.js" path="D:\Microverse\Projects\ToDo List\src\__mock__\showList.js">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="2" count="11" type="stmt"/>
+      <line num="4" count="11" type="stmt"/>
+      <line num="5" count="11" type="stmt"/>
+      <line num="7" count="11" type="stmt"/>
+      <line num="8" count="8" type="stmt"/>
+      <line num="9" count="8" type="stmt"/>
+      <line num="10" count="8" type="stmt"/>
+      <line num="11" count="8" type="stmt"/>
+      <line num="12" count="8" type="stmt"/>
+      <line num="13" count="8" type="stmt"/>
+      <line num="14" count="8" type="stmt"/>
+      <line num="15" count="8" type="stmt"/>
+      <line num="16" count="8" type="stmt"/>
+      <line num="17" count="8" type="stmt"/>
+      <line num="18" count="8" type="stmt"/>
+      <line num="19" count="8" type="stmt"/>
+    </file>
+    <file name="updateList.js" path="D:\Microverse\Projects\ToDo List\src\__mock__\updateList.js">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

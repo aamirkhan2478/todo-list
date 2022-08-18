@@ -8,11 +8,6 @@ const addList = () => {
       completed: false,
       index: 0,
     },
-    {
-      description: "Completed my project",
-      completed: true,
-      index: 1,
-    },
   );
   localStorage.setItem("list", JSON.stringify(listArr));
   showList();
