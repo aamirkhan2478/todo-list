@@ -1,7 +1,7 @@
-import addList from "../__mock__/addList";
-import clearCompletedTasks from "../__mock__/clearCompleted";
-import completedList from "../__mock__/completedList";
-import updateList from "../__mock__/updateList";
+import addList from "../__mock__/addList.js";
+import clearCompletedTasks from "../__mock__/clearCompleted.js";
+import completedList from "../__mock__/completedList.js";
+import updateList from "../__mock__/updateList.js";
 
 /* A test case for update list tasks. */
 describe("Test for update list tasks", () => {
