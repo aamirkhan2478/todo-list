@@ -1,5 +1,5 @@
 TN:
-SF:src\__mock__\addList.js
+SF:src/__mock__/addList.js
 FN:3,(anonymous_0)
 FNF:1
 FNH:1
@@ -15,7 +15,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src\__mock__\clearCompleted.js
+SF:src/__mock__/clearCompleted.js
 FN:3,(anonymous_0)
 FNF:1
 FNH:1
@@ -36,7 +36,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:src\__mock__\completedList.js
+SF:src/__mock__/completedList.js
 FN:1,(anonymous_0)
 FN:6,(anonymous_1)
 FNF:2
@@ -59,7 +59,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:src\__mock__\removeList.js
+SF:src/__mock__/removeList.js
 FN:3,(anonymous_0)
 FNF:1
 FNH:1
@@ -77,7 +77,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src\__mock__\showList.js
+SF:src/__mock__/showList.js
 FN:1,(anonymous_0)
 FN:7,(anonymous_1)
 FNF:2
@@ -107,7 +107,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src\__mock__\updateList.js
+SF:src/__mock__/updateList.js
 FN:3,(anonymous_0)
 FN:9,(anonymous_1)
 FNF:2
