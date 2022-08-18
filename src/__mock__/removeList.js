@@ -1,4 +1,4 @@
-import showList from "./showList";
+import showList from "./showList.js";
 
 const removeList = (id) => {
   let listArr = [];

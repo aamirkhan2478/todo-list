@@ -1,7 +1,7 @@
-import showList from "./showList";
+import showList from "./showList.js";
 
 const addList = () => {
-  let listArr = [];
+  const listArr = [];
   listArr.push(
     {
       description: "Complete my activities on time",
@@ -12,7 +12,7 @@ const addList = () => {
       description: "Completed my project",
       completed: true,
       index: 1,
-    }
+    },
   );
   localStorage.setItem("list", JSON.stringify(listArr));
   showList();

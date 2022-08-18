@@ -16,6 +16,7 @@ const showList = () => {
     label.className = "description";
     div.appendChild(innerDiv);
     innerDiv.appendChild(label);
+    return data;
   });
 };
 
