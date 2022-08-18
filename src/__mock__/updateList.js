@@ -7,7 +7,7 @@ const updateList = (index) => {
   listArr = JSON.parse(listArrStr);
 
   const updateTask = listArr.filter((item) => {
-    item.index = index
+    item.index === index
       && (item.description = "I will Complete my today's task");
 
     return item;

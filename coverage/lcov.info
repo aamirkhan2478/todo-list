@@ -54,9 +54,9 @@ DA:11,2
 LF:8
 LH:8
 BRDA:7,0,0,2
-BRDA:7,0,1,0
+BRDA:7,0,1,2
 BRF:2
-BRH:1
+BRH:2
 end_of_record
 TN:
 SF:src/__mock__/removeList.js
@@ -126,7 +126,7 @@ DA:18,1
 LF:9
 LH:9
 BRDA:10,0,0,1
-BRDA:10,0,1,0
+BRDA:10,0,1,1
 BRF:2
-BRH:1
+BRH:2
 end_of_record
