@@ -22,6 +22,9 @@
 ### Run this command to build your webpack
 > npm run build
 
+### Run this command to test our project
+> npm test
+
 
 ## Live Preview
 [Live Demo](https://aamirkhan2478.github.io/todo-list.github.io/)
